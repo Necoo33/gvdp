@@ -28,7 +28,7 @@ func Init(
     import (
         // other packages
 
-        "gvdp"
+        "github.com/Necoo33/gvdp"
     )
 
     fn main(){
