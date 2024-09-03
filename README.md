@@ -34,7 +34,7 @@ func Init(
     fn main(){
         // other codes
 
-        newProtector := protector.Init(30, 5, 60, 429, []string{})
+        newProtector := gvdp.Init(30, 5, 60, 429, []string{})
 
         // other codes
     }
@@ -72,7 +72,7 @@ package main
 
 import (
 	"fmt"
-	"protector"
+	"github.com/Necoo33/gvdp"
 
 	"net/http"
 )
